@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+.day_one, .day_two, .day_three, .day_four{
+    font-size: large;
+    background-color: #000000d0;
+    color: white;
+    height: 30px;
+    width: 400px;
+    text-align: left;
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 12%;  
+}
+.day{
+    color:palegoldenrod;
+    font-weight: bolder;
+}
+#one, #two, #three, #four{
+    color:palegoldenrod;
+    font-weight: bolder;
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+.f_temp{
+    margin-top: -25px;
+}
+.forecast_info{
+    padding-top: 0px;
+   display: inline;
+}
+.forecast{
+    margin-top: 0px;
+}
+button{
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 30px;
+    border-color: black;
+    padding: 5px;
+    transition: transform 2s ease;
+}
+button:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    transform: scale(1.2);
+}
+.search-bar{
+    align-items: center;
+}
+.search-icon{
+    width: 15px;
+    height: 15px;
+}
+.flex_two{
+    display: flex;
+    width: 300px;
+    height: 20px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.temp{
+    font-size: 30px;
+}
+.min, .max{
+    margin-top: -10px;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    font-size:large;
+    text-transform: capitalize;
+}
+.min{
+    margin-left: -15px;
+    margin-right: 30px;
+}
+
+.card{
+    background-color: #000000d0;
+    color: white;
+    border:2px solid;
+    border-radius: 30px;
+    padding: 40px;
+    font-size: larger;
+    width: 350px;
+    margin-right: 150px;
+}
+
+.description, .f_description{
+    text-transform: capitalize;
+}
+
+.icon{
+    width: 50px;
+    height: 35px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading{
+    visibility: hidden;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+}
+.day_one.loading{
+    visibility: hidden;
+}
+.day_one.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+
+}

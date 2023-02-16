@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="daily">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Search any city...">
+                <button><img class="search-icon"src="https://th.bing.com/th/id/R.602ef64bc31a62f9ebd523d97fc9f369?rik=JAPpFrIn7Yon0Q&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_194915.png&ehk=PY%2fOHmWzAr5CQnqxsnvx5nnpZAeNl7OJ5%2fHDzvIuHTo%3d&risl=&pid=ImgRaw&r=0" alt=""></button>
+            </div>
+            <div class="weather loading">
+                <h2 class="city">Weather in Denver</h2>
+                <div class="day">Sunday</div>
+                <div class="temp">51°</div>
+                <div class="flex_two">
+                    <div class="min">49°</div>
+                    <div class="max">54°</div>
+                </div>
+                <div class="flex">
+                    <div class="description">Cloudy</div>
+                    <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+                </div>
+                <div class="humidity">Humidity 60%</div>
+                <div class="wind">Wind speed: 6.2 km/h</div>
+            </div>
+        </div>
+    </div>
+    <div class="forecast">
+        <div class="day_one">
+            <div id="one">Saturday</div>
+            <div class="f_temp" id="temp_one">Temp: 51</div>
+            <div class="f_min_max" id="minmax_one">Humidity</div>
+            <div class="flex">
+                <div class="f_description" id="description_one">Windy </div>
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" id="icon_one">
+            </div>
+        </div>
+        <div class="day_two">
+            <div id="two">Saturday</div>
+            <div class="f_temp" id="temp_two">Temp: 51</div>
+            <div class="f_min_max" id="minmax_two">Min: 49 Max: 54</div>
+            <div class="flex">
+                <div class="f_description" id="description_two">Windy </div>
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" id="icon_two">
+            </div>
+        </div>
+        <div class="day_three">
+            <div id="three">Saturday</div>
+            <div class="f_temp" id="temp_three">Temp: 51</div>
+            <div class="f_min_max" id="minmax_three">Min: 49 Max: 54</div>
+            <div class="flex">
+                <div class="f_description" id="description_three">Windy </div>
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" id="icon_three">
+            </div>
+        </div>
+        <div class="day_four">
+            <div id="four">Saturday</div>
+            <div class="f_temp" id="temp_four">Temp: 51</div>
+            <div class="f_min_max" id="minmax_four">Min: 49 Max: 54</div>
+            <div class="flex">
+                <div class="f_description" id="description_five">Windy </div>
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" id="icon_four">
+            </div>
+        </div>
+
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
